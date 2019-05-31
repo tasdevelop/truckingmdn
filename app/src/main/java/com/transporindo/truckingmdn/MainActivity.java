@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             if (Build.VERSION.SDK_INT >= 19) {
                 view.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
             }
-            view.loadUrl("http://taspst.dynu.com/ci-android-sby/");
+            view.loadUrl("http://202.162.198.51:8888/ci-android-mdn/");
         }
 
 
